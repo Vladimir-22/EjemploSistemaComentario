@@ -1,0 +1,76 @@
+html, main {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	vertical-align: baseline;
+	line-height: 21px;
+	outline: none;
+	clear: both;
+}
+
+.grid {
+	display: grid;
+	padding-top: 1%;
+	padding-left: 2%;
+}
+
+.grid_header {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: 100px;
+	background-color: #B0C4DE;
+}
+
+.grid_comentario {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 1fr;
+	background-color: #F0F8FF;
+	grid-column-gap: 20px;
+	grid-auto-flow: row;
+}
+
+nav.menu {
+	list-style: none;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 2%;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	text-decoration: none;
+	display: inline-block;
+}
+
+ul {
+	float: right;
+}
+
+.izq {
+	border: 1px solid red;
+	float: left;
+	min-width: 60%;
+}
+
+.der {
+	border: 1px solid blue;
+	float: right;
+	min-width: 80%;
+}
+
+:root {
+		--main-bg-color: black;
+}
+
+#div1 {
+		background-color: var(--main-bg-color);
+}
+
+#div2 {
+		background-color: var(--main-bg-color);
+}
+
